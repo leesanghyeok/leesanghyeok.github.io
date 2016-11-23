@@ -1,0 +1,45 @@
+title: Lee Sanghyeok 공부 일기
+description: 나의 블로그
+author: 이상혁 - Lee Sanghyeok
+github: https://github.com/leesanghyeok
+about: 컴퓨터를 공부하는 대학생입니다. 안드로이드를 그나마 가장 잘 다룹니다.
+disqus_shortname: leesanghyeok
+google_analytics: UA-XXXXXXXX-Y
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "https://www.facebook.com/lee.sanghyeok.94"
+
+share:
+  fb_appid: 1766508663588533
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: Projects
+      url: /projects/
+    - text: Github
+      url: https://github.com/leesanghyeok
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://leesanghyeok.github.io"
+host: "0.0.0.0"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+  
+
