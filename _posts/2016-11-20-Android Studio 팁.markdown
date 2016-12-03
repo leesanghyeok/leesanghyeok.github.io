@@ -14,7 +14,6 @@ categories: [Android,Tool]
 Android Studio를 이용하는 팁을 정리한 문서
 
 ## 팁
-{:toc}
 ---
 
 ### Show Line Number 
