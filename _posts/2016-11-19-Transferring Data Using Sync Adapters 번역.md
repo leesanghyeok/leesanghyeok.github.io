@@ -5,9 +5,9 @@ date:   2016-11-19 11:57:00 +0700
 categories: [번역]
 ---
 ## 목차
----
-* 목차
-{:toc}
+
+* toc
+{: toc}
 
 ## 개요
 지금 진행하고 있는 안드로이드 프로젝트에서 RSS를 읽고 데이터를 다뤄야하는 기능이있다. 그래서 RSS를 Parsing하는 Library를 찾다가 Android Developer site에서 BaseSyncAdapter라는 예제를 찾았는데 간단한 코드가 아니여서 설명을 살펴봤다.
