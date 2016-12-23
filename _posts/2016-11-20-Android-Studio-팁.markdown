@@ -42,3 +42,21 @@ Android Studio를 이용하는 팁을 정리한 문서
 **Show Line Numbers**를 클릭하고 OK를 누르면 설정이 완료된다.
 
 ![line-number-easy](https://raw.githubusercontent.com/leesanghyeok/leesanghyeok.github.io/master/static/img/_posts/line-number-complex.png){: .center-image }
+
+### .jar 파일 추가하기 정리 필요
+Android Studio에서 외부 라이브러리를 추가하려면 Gradle을 이용하는것이 일반적이다.
+하지만 최근에 외부 라이브러리를 수정하고 싶어서 소스를 따로 컴파일해서 추가하려는 시도를 했다.
+꼭 이런 상황이 아니더라도 외부 라이브러리를 추가하려면 .jar파일을 프로젝트에 넣어야 한다.
+
+일반적으로 ```app - build.gradle```에 이런 코드가 있다. 없으면 추가하자.
+
+```
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
+```
+
+그리고 프로젝트 최상위 경로에 ```libs```라는 폴더를 만들어서 .jar 파일을 넣는다.
+다시 Android Studio롤 돌아오면 프로젝트 탐색기에 .jar파일이 생겼을 것이다.
+그 파일을 오른쪽마우스로 클릭하고 ```Add As Library```를 눌러서 확인해라.
+
